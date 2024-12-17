@@ -17,7 +17,7 @@
 
 </header>
 
-# Token Grabber
+# Obtain Your Token
 Copies your Token into the clipboard.
 
 ⚠️ **DO NOT GIVE THIS TO ANYONE. It grants full access to your account.**
