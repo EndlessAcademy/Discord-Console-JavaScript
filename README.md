@@ -48,6 +48,7 @@ Paste this into the console (CTRL + SHIFT + I) on the login screen (you need to 
   ```
 You can now log in using a token.
 Note that this doesn't work with bot tokens. Bot tokens are different from user tokens, and Discord doesn't support this.
+
 ![Token](https://github.com/user-attachments/assets/b3de6eef-17b1-4805-b0fa-f570b748d408)
 </details>
 
