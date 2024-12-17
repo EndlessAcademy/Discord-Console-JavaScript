@@ -19,6 +19,7 @@
 
 As stated in my disclaimer, I don't promote using any kind of client modifications. Please don't use the code found here for illegal / hacking purposes, or you might risk seeing this error message:
 
+![Ban Message](https://github.com/user-attachments/assets/cb423923-9a16-4fe0-b5b2-dc566924e006)
 </header>
 
 
