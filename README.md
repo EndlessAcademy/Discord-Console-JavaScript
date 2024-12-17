@@ -7,9 +7,9 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# GitHub Pages
+# Discord Console
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+⚠️ Note: I'm not affiliated with Discord and do not encourage using any of these scripts. Use everything here at your own risk. This is meant for educational purposes only and using these codeblocks may result in your account being disabled/terminated.
 
 </header>
 
