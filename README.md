@@ -15,6 +15,32 @@
 
 **Disclaimer**: The information provided in this section is obtained through reverse engineering and NOT verified for it's accuracy. Therefore it might be outdated as well.
 
+<details>
+  <summary>Expand</summary>
+  <header>
+
+# Discord Token Syntax
+
+<details>
+  <summary>Expand</summary>
+
+![Example](https://github.com/user-attachments/assets/d77b673a-aa63-420d-ba3d-38e013398848)
+</details>
+
+# Discord's Internal Server Structure
+
+<details>
+  <summary>Expand</summary>
+
+Check out this article about reverse engineering Discord, and the proof that Discord decrypts your encrypted data: https://medium.com/tenable-techblog/lets-reverse-engineer-discord-1976773f4626
+They can also read your messages (e.g. in DM's), log all edits and deleted messages and record your voice calls.
+
+![Example Discord Internal](https://github.com/user-attachments/assets/22363757-fd9e-4a4b-acb2-edf8d68bb0c9)
+</details>
+
+  </header>
+</details>
+
 # Console
 
 As stated in my disclaimer, I don't promote using any kind of client modifications. Please don't use the code found here for illegal / hacking purposes, or you might risk seeing this error message:
@@ -52,4 +78,20 @@ Someone who knows your token can impersonate you, mess with your friends and ser
 
 
 </details>
+
+# License
+Copyright (C) 2024  EndlessAcademy
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
 </footer>
