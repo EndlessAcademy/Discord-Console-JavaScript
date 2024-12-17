@@ -31,12 +31,13 @@ _Welcome to GitHub Pages and Jekyll :tada:!_
 
 The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
 
-<details>
-  <summary>Expand</summary>
-
   ### Token Grabber
   Copies your Token into the clipboard.
 ⚠️ **DO NOT GIVE THIS TO ANYONE. It grants full access to your account.**
+
+<details>
+  <summary>Expand</summary>
+  
   Paste this into the console (while being logged in):
   ```
 window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getToken !== undefined) {return copy(m.default.getToken())}if (m.getToken !== undefined) {return copy(m.getToken())}}}]); console.log("%cDone!", "font-size: 50px"); console.log(`%cYou now have your token in the clipboard!`, "font-size: 16px")
