@@ -26,7 +26,7 @@ As stated in my disclaimer, I don't promote using any kind of client modificatio
 <details>
   <summary>Expand</summary>
   
-# How to use these JS
+# How to use these Javascript
 It only works on web and desktop versions (Windows, Linux, MacOS), not on mobile.
 
 1. Press CTRL + SHIFT + I to toggle Developer Tools (Discord is based on Electron, which is basically Google Chrome)
