@@ -154,6 +154,168 @@ window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m
   ```
   
 </details>
+
+# Easy Edit Mode
+You can use this to make fake screenshots without having to use Inspect Element (CTRL + SHIFT + I) each time.
+
+<details>
+  <summary>Expand</summary>
+  
+  ```
+  document.designMode = 'on'
+  ```
 </details>
+
+# Spotify "Listen Along" Spoofer
+Makes it possible to use the "Listen Along" feature without needing Spotify Premium.
+
+<details>
+  <summary>Expand</summary>
+  
+  ```
+(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m => m?.exports?.Z?.getAccounts).exports.Z.getAccounts().forEach((conn) => conn.type === "spotify" && (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m => m?.exports?.Z?.isDispatching).exports.Z.dispatch({type: "SPOTIFY_PROFILE_UPDATE", accountId: conn.id, isPremium: true}))  
+  ```
+</details>
+
+# Enter NSFW Channels
+Grants access to channels marked as NSFW on an under-18 account.
+
+**Only use this script if you are 18+! There is a reason those channels are marked as NSFW.**
+
+<details>
+  <summary>Expand</summary>
+  
+This script is intended for people (>18) whose accounts have been wrongfully marked as underage. Don't use it for other purposes.
+  ```
+  var findModule=(item)=>window.webpackChunkdiscord_app.push([[Math.random()],{},(req)=>{for(const m of Object.keys(req.c).map((x)=>req.c[x].exports).filter((x)=>x)){if(m.default&&m.default[item]!==undefined)return m.default}}])
+findModule('getCurrentUser').getCurrentUser().nsfwAllowed = true
+  ```
+
+![No Access](https://github.com/user-attachments/assets/172def80-4310-42ae-94e8-9652568b345f)
+
+ ![Can Access](https://github.com/user-attachments/assets/f7d00a7a-0ccc-4027-9b50-fac4c94e4ab9)
+</details>
+
+# Get Hidden Channel IDs
+Displays the ID's of channels that you can't see without client modifications.
+
+<details>
+  <summary>Expand</summary>
+
+  ```
+window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getPrivateChannelIds !== undefined) {return console.log(m.default.getPrivateChannelIds())}if (m.getPrivateChannelIds !== undefined) {return console.log(m.getPrivateChannelIds())}}}]);  
+  ```
+
+![Get Hidden Channel ID](https://github.com/user-attachments/assets/16101d91-a53d-4cef-936c-cc4a055716d7)
+</details>
+
+# Change Password
+Changes the password of the account that is currently logged in.
+**Only use this on your own account! Stealing accounts is a crime in most countries.**
+
+<details>
+  <summary>Expand</summary>
+
+  ```
+let oldpassword = "";
+let newpassword = "";
+
+window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getToken !== undefined) {fetch("https://discord.com/api/v9/users/@me", { "credentials": "include", "body": "{\"password\":\"" + oldpassword + "\",\"new_password\":\"" + newpassword + "\"}", "method": "PATCH", "headers": { "Authorization": m.default.getToken(), "Content-Type":"application/json" }}); return}if (m.getToken !== undefined) {fetch("https://discord.com/api/v9/users/@me", {"credentials": "include","body": "{\"password\":\"" + oldpassword + "\",\"new_password\":\"" + newpassword + "\"}","method":"PATCH","headers": {"Authorization": m.getToken(), "Content-Type":"application/json"}});return}}}]);
+```
+</details>
+
+# Add Guild Features
+Enables server features (like having a partnered / verified server, or some boost-only features) locally, meaning everything is purely visual.
+
+<details>
+  <summary>Expand</summary>
+  
+ ![Normal Community](https://github.com/user-attachments/assets/f218b17f-f3db-4aca-893a-ca59414c75c2)   ![Verified Community](https://github.com/user-attachments/assets/4709a3c5-85c9-4cb0-8fc0-10e4f6ec9585)   ![Partnered Community](https://github.com/user-attachments/assets/322d5ef8-c37a-418e-acde-88c3e9018cec)
+ 
+  Valid features are `PARTNERED` and `VERIFIED`.
+
+  ```
+let serverid = "";
+let feature = "";
+
+window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getGuilds !== undefined) {return m.default.getGuild(serverid).features.add(feature)}if (m.getGuilds !== undefined) {return m.getGuild(serverid).features.add(feature)}}}]); 
+  ```
+</details>
+
+# Delete Webhook
+Deletes a webhook using it's webhook URL.
+You could use this to delete the webhook of some scammers trying to token-grab you. :)
+
+<details>
+  <summary>Expand</summary>
+
+  ```
+let webhookURL = "PUT_WEBHOOK_URL_HERE";
+
+await fetch(webhookURL, {
+  "method": "DELETE",
+});
+  ```
+</details>
+
+# E-mail Address & Phone Number Verification Bypass
+Bypasses e-mail address and phone number verification in servers. This does not let you send messages, but you can connect and talk in voice channels.
+
+<details>
+  <summary>Expand</summary>
+
+  ```
+window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getCurrentUser !== undefined) {return m.default.getCurrentUser().phone = '+1234567890';}if (m.getCurrentUser !== undefined) {return m.getCurrentUser().phone = '+1234567890'}}}]);
+window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getCurrentUser !== undefined) {return m.default.getCurrentUser().email = 'email@email.com';}if (m.getCurrentUser !== undefined) {return m.getCurrentUser().email = 'email@email.com'}}}]);
+window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getCurrentUser !== undefined) {return m.default.getCurrentUser().verified = true;}if (m.getCurrentUser !== undefined) {return m.getCurrentUser().verified = true}}}]);
+  ```
+</details>
+
+# Discord Activities
+Adds the Activities button in the voice channel you're in.
+
+<details>
+  <summary>Expand</summary>
+
+  ```
+var AppIds = ["755600276941176913", "880218394199220334", "755827207812677713", "773336526917861400", "814288819477020702", "832012774040141894", "879864070101172255", "879863881349087252", "832012854282158180", "878067389634314250", "902271654783242291", "879863686565621790", "879863976006127627", "852509694341283871", "832013003968348200", "832025144389533716", "763133495793942528", "880218832743055411", "878067427668275241", "879864010126786570", "879864104980979792", "891001866073296967", "832012586023256104", "832012682520428625", "832013108234289153", "763116274876022855", "832012730599735326", "832012938398400562", "832025061657280566", "801133024841957428", "832012815819604009", "832012894068801636", "832025114077298718", "832025993019260929"]
+window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getEnabledAppIds !== undefined) {return m.default.getEnabledAppIds = () => AppIds}}}]);
+  ```
+
+![Activities](https://github.com/user-attachments/assets/d301123f-8a8e-4d26-96b2-44a847bfbbb9)
+</details>
+
+# Change Client Color
+Changes your client's color to your liking.
+
+<details>
+  <summary>Expand</summary>
+
+  ```
+__SECRET_EMOTION__.injectGlobal(`
+    * {
+--background-primary: #000000;
+    --background-secondary: #000000;
+--background-secondary-alt: #070707ff;
+--background-accent: #252525;
+--background-floating: #242424ff;
+    --scrollbar-thin-track: #000000;
+    --channeltextarea-background: #151515;
+    }
+`)
+  ```
+</details>
+
+# AMOLED Theme on Desktop & Web
+Activates the AMOLED theme from mobile on desktop and web, which uses darker colors than the normal theme and is better on the eyes.
+
+<details>
+  <summary>Expand</summary>
+  
+  ```
+document.body.classList.add("theme-amoled"); 
+  ```
+</details>
+
 
 </footer>
