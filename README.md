@@ -15,8 +15,16 @@
 
 **Disclaimer**: The information provided in this section is obtained through reverse engineering and NOT verified for it's accuracy. Therefore it might be outdated as well.
 
+# Console
+
+As stated in my disclaimer, I don't promote using any kind of client modifications. Please don't use the code found here for illegal / hacking purposes, or you might risk seeing this error message:
+
 </header>
 
+
+<details>
+  <summary>Expand</summary>
+  
 # Obtain Your Token
 Copies your Token into the clipboard.
 
@@ -137,4 +145,6 @@ window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m
   ```
   
 </details>
+</details>
+
 </footer>
