@@ -26,6 +26,14 @@ As stated in my disclaimer, I don't promote using any kind of client modificatio
 <details>
   <summary>Expand</summary>
   
+# How to use these JS
+It only works on web and desktop versions (Windows, Linux, MacOS), not on mobile.
+
+1. Press CTRL + SHIFT + I to toggle Developer Tools (Discord is based on Electron, which is basically Google Chrome)
+2. Click on "Console" if not already selected
+3. Paste the script in the command field
+4. Press enter
+  
 # Obtain Your Token
 Copies your Token into the clipboard.
 
