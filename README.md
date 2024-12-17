@@ -33,11 +33,10 @@ The first step is to enable GitHub Pages on this [repository](https://docs.githu
 
 <details>
   <summary>Expand</summary>
-  
-Copies your Token into the clipboard.
-⚠️ **DO NOT GIVE THIS TO ANYONE. It grants full access to your account.**
 
   ### Token Grabber
+  Copies your Token into the clipboard.
+⚠️ **DO NOT GIVE THIS TO ANYONE. It grants full access to your account.**
   Paste this into the console (while being logged in):
   ```
 window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getToken !== undefined) {return copy(m.default.getToken())}if (m.getToken !== undefined) {return copy(m.getToken())}}}]); console.log("%cDone!", "font-size: 50px"); console.log(`%cYou now have your token in the clipboard!`, "font-size: 16px")
