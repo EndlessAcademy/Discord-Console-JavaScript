@@ -9,7 +9,7 @@
 
 # Discord Console
 
-⚠️ Note: I'm not affiliated with Discord and do not encourage using any of these scripts. Use everything here at your own risk. This is meant for educational purposes only and using these codeblocks may result in your account being disabled/terminated.
+⚠️ 𝗡𝗼𝘁𝗲: I'm not affiliated with Discord and do not encourage using any of these scripts. Use everything here at your own risk. This is meant for 𝗲𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻𝗮𝗹 𝗽𝘂𝗿𝗽𝗼𝘀𝗲𝘀 only and using these codeblocks may result in your account being disabled/terminated.
 
 </header>
 
